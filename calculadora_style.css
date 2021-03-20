@@ -1,0 +1,49 @@
+/* head{
+    backgound: #00bfff;
+} */
+header{
+    /* background: rgb(44, 102, 57); */
+    background: #00bfff;
+    /* border-radius: 10px; */
+    padding: 1px;
+    width: auto;
+    margin: auto;
+    /* box-shadow: 3px 3px 10px black; */
+    /* text-align: center; */
+}
+h1#titulo_site{
+    font: normal 35pt fantasy;
+}
+body{
+    background-color: rgba(24, 228, 255, 0.473);
+    font: normal 13pt Arial;
+    /* color: red; */
+}
+h3{
+    color: rgb(0, 255, 255);
+    margin-inline: 100px; 
+}
+div#numbers{
+    color:rgb(24, 228, 255)
+}
+div#msg{
+    
+}
+img#imagem_ms{
+    margin: auto;
+    border-radius: 50px;
+    padding: 0px;
+    /* width: 500px; */
+    /* margin: auto; */
+}
+img#imagem_calc{
+    margin: auto;
+    border-radius: 50px;
+    padding: 30pt;
+}
+
+footer{
+    font: normal 13pt Bold;
+    /* color: rgb(92, 11, 92); */
+    color: #7cfc00;
+}

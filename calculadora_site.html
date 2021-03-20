@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculadora_style.css">
+</head>
+
+<body background="images//numbers-background.jpg">
+    <header>
+        <!-- <div> -->
+        <h1 id="titulo_site"><img id="imagem_ms" src="images//ms.jpg"> Site da Calculadora básica</h1>
+        <!-- </div> -->
+    </header>
+    <section>
+        <div id="msg">
+            <h3>
+                <p>Bem-vindo a calculadora básica. O site que vai lhe ajudar a
+                    resolver problemas de conta básico!</p>
+            </h3>
+        </div>
+        <div id="numbers">
+            <p> Número 1:
+                <!-- em tese esse auto focus era pra focar no input -->
+                <input type="number" name="num1" id="numero1" autofocus>
+            </p>
+            <p> Número 2:
+                <input type="number" name="num2" id="numero2">
+            </p>
+            <p> 
+                <input type="radio" name="somar_sub" id="plus">
+                <label for="som"> Somar</label>
+                <input type="radio" name="somar_sub" id="less">
+                <label for="subt"> Subtrair</label>
+            </p>
+                <!-- <br> -->
+            <!-- <h4>Número 2: <input id="número2" type="number" value="number2"> </h4> -->
+            <!-- <br> -->
+            <center><input type="button" value="Calcular" onclick="calcular()"></center>
+        </div>
+        <div id="img">
+            <!-- <img id="imagem_calc" src="images//calculadora.jpg" alt="calculadora exemplo"> -->
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Matheus dos Santos Rezende <br>
+            @matheusd.santosr</p>
+        
+    </footer>
+    <script src="calculadora_back.js"></script>
+</body>
